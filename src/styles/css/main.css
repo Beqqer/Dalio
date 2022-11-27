@@ -1,3 +1,186 @@
-h1 {
-  color: red;
+@import "main.css";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+.wrapper {
+  max-width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.left_fon {
+  background: linear-gradient(142.29deg, #FFFFFF -10.73%, rgba(255, 255, 255, 0) 47.74%);
+  width: 341px;
+  height: 341px;
+  top: 341px;
+}
+
+.header__wrapper {
+  margin: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.header__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__item {
+  margin-right: 3rem;
+}
+
+.header__item:last-child {
+  margin-right: 0;
+}
+
+.header-item__link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  width: 2.5rem;
+  text-decoration: none;
+}
+
+.header-item__link:hover, .header-item__link:focus, .header-item__link:active {
+  opacity: 0.75;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+a:not([class]) {
+  -webkit-text-decoration-skip: ink;
+          text-decoration-skip-ink: auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+article > * + * {
+  margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  border: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    -webkit-animation-duration: 0.01ms !important;
+            animation-duration: 0.01ms !important;
+    -webkit-animation-iteration-count: 1 !important;
+            animation-iteration-count: 1 !important;
+    -webkit-transition-duration: 0.01ms !important;
+            transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+body {
+  font-size: 20px 1rem;
+  background-color: #172048;
+}
+
+.banner__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 150px;
+  line-height: 182px;
+  color: #fff;
+  text-align: center;
+  width: 72rem;
+}
+
+.banner__suptitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 150px;
+  line-height: 182px;
+  color: #fff;
+  width: 59rem;
+}
+
+.banner__logo {
+  position: absolute;
+  bottom: 26rem;
+  left: 18rem;
+}
+
+.text__suptitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  color: #E0E5F3;
+  width: 40rem;
+}
+
+.banner-text__suptitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }

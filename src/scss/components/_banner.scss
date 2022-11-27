@@ -1,0 +1,41 @@
+.banner__title {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 150px;
+line-height: 182px;
+color: #fff;
+text-align: center;
+width: 72rem;
+}
+
+.banner__suptitle {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 150px;
+line-height: 182px;
+color: #fff;
+width: 59rem;
+}
+
+.banner__logo {
+    position:absolute;
+    bottom: 26rem;
+    left: 18rem;
+}
+
+.text__suptitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color: #E0E5F3;
+    width: 40rem;
+}
+
+.banner-text__suptitle {
+    display: flex;
+    justify-content: center;
+}
