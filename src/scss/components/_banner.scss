@@ -6,7 +6,7 @@ font-size: 150px;
 line-height: 182px;
 color: #fff;
 text-align: center;
-width: 72rem;
+width: 92rem;
 }
 
 .banner__suptitle {
@@ -16,13 +16,25 @@ font-weight: 700;
 font-size: 150px;
 line-height: 182px;
 color: #fff;
-width: 59rem;
+width: 79rem;
+}
+
+.banner__line {
+    position:absolute;
+    top: 1.5rem;
+    left: 44.8rem;
+    z-index: 1;
+    width: 43.5rem;
 }
 
 .banner__logo {
     position:absolute;
-    bottom: 26rem;
-    left: 18rem;
+    top: 0;
+    left: 16rem;
+}
+
+.section__banner {
+    position: relative;
 }
 
 .text__suptitle {
@@ -33,9 +45,70 @@ width: 59rem;
     line-height: 40px;
     color: #E0E5F3;
     width: 40rem;
+    margin-right: 3.5rem;
 }
 
 .banner-text__suptitle {
     display: flex;
     justify-content: center;
+}
+
+.button {
+position: absolute;
+width: 12rem;
+height: 3.4rem;
+background: #FFC93E;
+border-radius: 1.5rem;
+margin-left: 3.5rem;
+cursor: pointer;
+}
+
+.banner__button {
+position: absolute;
+left: 21%
+}
+
+.button__text {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+}
+
+.banner-title__image {
+    position: absolute;
+    top: 15rem;
+    left: 58.5rem;
+    z-index: 1;
+
+}
+
+.banner__image-circle {
+    position: absolute;
+    top: 25rem;
+    left: 17rem;
+    z-index: 2;
+}
+
+.banner-suptitle__image {
+    position: relative;
+}
+
+.scroll-down__text {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+color: #fff;
+}
+
+.banner__scroll-down {
+    position: relative;
+    left: 37rem;
+    bottom: 13rem;
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+    
 }

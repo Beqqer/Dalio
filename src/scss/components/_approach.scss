@@ -1,0 +1,53 @@
+.approach {
+	background: linear-gradient(to right, #ffc93e 40%, #353f5b 40%);
+}
+
+.image__title {
+	margin: 4rem 6rem 4rem 3rem;
+}
+
+.approach-title {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 39px;
+	line-height: 58px;
+	color: #fff;
+	position: relative;
+	right: 3rem;
+	margin: 2.5rem auto;
+}
+
+.approach-text {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 21px;
+	line-height: 29px;
+	color: #ffffff;
+}
+
+.approach-suptext {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 30px;
+	width: 444px;
+	color: #e0e5f3;
+	margin: 1rem auto;
+}
+
+.approach__box {
+	display: flex;
+}
+
+.approach-text__title {
+	margin: 3rem 4rem;
+}
+
+.approach-group__image {
+	position: relative;
+	top: 2rem;
+	right: 3rem;
+}
