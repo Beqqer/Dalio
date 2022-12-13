@@ -96,15 +96,44 @@
 }
 
 .service__box-button:hover {
-	background-color: #ffc93e;
+	background-color: yellow;
 	color: #000;
 	transition: 1s;
 }
+@media (max-width: 500px) {
+	.box__right {
+		display: none;
+	}
+	.service-box__bottom {
+		display: none;
+	}
+	.service-box__top {
+		border-radius: 50px;
+	}
 
-.service__button:hover {
-	background-color: #ffc93e;
-	color: #000;
-	transition: 1s;
+	.service__button {
+		border: none;
+	}
+
+    .service-text__title {
+        font-size: 2.5rem;
+    }
+
+	.service__button {
+		position: absolute;
+        right: 1rem;
+        text-transform: capitalize;
+    }
+
+    .service__button:hover {
+        background-color: yellow;
+        color: #000;
+    }
+
+    .service__box-button {
+        left: 0;
+        margin: 0 7rem;
+    }
 }
 
 @media (max-width: 320px) {
@@ -168,3 +197,4 @@
 		border-radius: 1.5rem;
 	}
 }
+

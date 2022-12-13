@@ -6,7 +6,7 @@
 	margin: 4rem 6rem 4rem 3rem;
 }
 
-.approach-header {
+.approach-title {
 	font-family: "Inter";
 	font-style: normal;
 	font-weight: 700;
@@ -51,6 +51,43 @@
 	top: 2rem;
 	right: 3rem;
 }
+
+@media (max-width: 500px) {
+	.approach__box {
+		flex-direction: column-reverse;
+	}
+
+	.approach-suptext {
+		width: 100%
+	}
+
+	.approach-header {
+		color: #fff;
+		font-size: 30px;
+	}
+
+	.approach-title {
+		font-size: 22.5px;
+		margin: 0;
+		line-height: 30px;
+		margin-left: 3rem;
+	}
+
+	.approach-text__title {
+		top: 0;
+		right: 0;
+	}
+
+	.image__title {
+		margin: 0;
+		margin-bottom: 10rem;
+	}
+
+	.approach {
+		background: linear-gradient(to top, #ffc93e 40%, #353f5b 40%);
+	}
+}
+
 
 @media (max-width: 320px) {
 	.approach__box {
