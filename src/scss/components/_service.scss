@@ -96,18 +96,18 @@
 }
 
 .service__box-button:hover {
-	background-color: #FFC93E;
+	background-color: #ffc93e;
 	color: #000;
 	transition: 1s;
 }
 
 .service__button:hover {
-	background-color: #FFC93E;
+	background-color: #ffc93e;
 	color: #000;
 	transition: 1s;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 320px) {
 	.box__right {
 		display: none;
 	}
@@ -116,29 +116,55 @@
 	}
 	.service-box__top {
 		border-radius: 50px;
+		padding: 0;
+		height: 550px;
+	}
+
+	.box__left {
+		margin: 0;
+	}
+
+	.box-text {
+		margin: 1rem 1rem;
+		font-size: 20px;
+	}
+
+	.box-suptext {
+		margin: 2rem 1rem;
+	}
+
+	.service-icon {
+		padding: 2rem;
+	}
+
+	.service-box {
+		flex-direction: column;
 	}
 
 	.service__button {
 		border: none;
 	}
 
-    .service-text__title {
-        font-size: 2.5rem;
-    }
+	.service-text__title {
+		font-size: 1.5rem;
+	}
 
 	.service__button {
 		position: absolute;
-        right: 1rem;
-        text-transform: capitalize;
-    }
+		right: 1rem;
+		text-transform: capitalize;
+	}
 
-    .service__button:hover {
-        background-color: yellow;
-        color: #000;
-    }
+	.service__button:hover {
+		background-color: yellow;
+		color: #000;
+	}
 
-    .service__box-button {
-        left: 0;
-        margin: 0 7rem;
-    }
+	.service__box-button {
+		margin: 0.5rem 2rem;
+		left: 0;
+		color: #fff;
+		border: 1px solid;
+		border-radius: 1.5rem;
+	}
 }

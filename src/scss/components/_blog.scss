@@ -1,119 +1,116 @@
 .container__blog {
-    max-width: 1140px;
+	max-width: 1140px;
 }
 
 .blog {
-    margin: 0 0 5rem 0;
+	margin: 0 0 5rem 0;
 }
 
 .blog__title {
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 48px;
-line-height: 58px;
-margin: 2rem auto;
-text-transform: capitalize;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 58px;
+	margin: 2rem auto;
+	text-transform: capitalize;
 
-color: #FFFFFF;
+	color: #ffffff;
 }
 
 .blog__content {
-    display: flex;
+	display: flex;
 }
 
-
 .blog__info-text {
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-margin: 1.5rem auto;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	margin: 1.5rem auto;
 
-
-
-color: #FFFFFF;
+	color: #ffffff;
 }
 
 .blog-text {
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 30px;
-line-height: 38px;
-width: 554px;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 38px;
+	width: 554px;
 
-color: #FFFFFF;
+	color: #ffffff;
 }
 
 .blog__button {
-    width: 8rem;
-    height: 3.4rem;
-    background: transparent;
-    color: #fff;
-    border: 1px solid;
-    border-radius: 1.5rem;
-    cursor: pointer;
-    margin: 1.5rem auto;
+	width: 8rem;
+	height: 3.4rem;
+	background: transparent;
+	color: #fff;
+	border: 1px solid;
+	border-radius: 1.5rem;
+	cursor: pointer;
+	margin: 1.5rem auto;
 }
 
 .blog-icon {
-    font-family: 'Red Hat Display';
-font-weight: 500px;
-font-size: 14px;
-line-height: 18px;
-padding: 0.7rem;
-    background: #FFFFFF;
-box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
-border-radius: 10px;
+	font-family: "Red Hat Display";
+	font-weight: 500px;
+	font-size: 14px;
+	line-height: 18px;
+	padding: 0.7rem;
+	background: #ffffff;
+	box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
+	border-radius: 10px;
 }
 
 .blog__right-side {
-    margin: 0 2rem;
+	margin: 0 2rem;
 }
 
 .blog__image-left {
-    margin: 0 0 1.8rem 0;
+	margin: 0 0 1.8rem 0;
 }
 
 .blog__image-right {
-    margin: 0 0 1.8rem 0;
+	margin: 0 0 1.8rem 0;
 }
 
 .blog__button:hover {
-    background-color: #FFC93E;
-    color: #000;
-    transition: 1s;
+	background-color: #ffc93e;
+	color: #000;
+	transition: 1s;
 }
 
-@media (max-width: 500px) {
-    .blog__right-side {
-        display: none;
-    }
+@media (max-width: 320px) {
+	.blog__right-side {
+		display: none;
+	}
 
-    .blog__left-side {
-        display: flex;
-        flex-direction: column;
-        align-items: center; 
-    }
+	.blog__left-side {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
 
-    .blog__title {
-        margin: 2rem 0 1rem 0;
-        font-size: 30px;
-    }
+	.blog__title {
+		margin: 2rem 0 1rem 0;
+		font-size: 30px;
+	}
 
-    .blog__image-left {
-        width: 100%;
-    }
+	.blog__image-left {
+		width: 100%;
+	}
 
-    .blog-text {
-        width: 80%;
-        text-align: center;
-    }
+	.blog-text {
+		font-weight: 100;
+		width: 100%;
+		text-align: center;
+	}
 
-    .blog-icon {
-        color: #FFC93E;
-
-    }
+	.blog-icon {
+		color: #ffc93e;
+	}
 }

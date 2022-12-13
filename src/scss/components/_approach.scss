@@ -6,7 +6,7 @@
 	margin: 4rem 6rem 4rem 3rem;
 }
 
-.approach-title {
+.approach-header {
 	font-family: "Inter";
 	font-style: normal;
 	font-weight: 700;
@@ -52,31 +52,46 @@
 	right: 3rem;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 320px) {
 	.approach__box {
 		flex-direction: column-reverse;
 	}
 
-	.approach-suptext {
-		padding: 0 2rem 0 0;
-	}
-
-	.approach-title {
-		font-size: 26.5px;
-		margin: 0;
-	}
-
-	.approach-text__title {
-		top: 0;
+	.approach-group__image {
 		right: 0;
 	}
 
-	.image__title {
+	.approach-text__title {
 		margin: 0;
+	}
+
+	.approach-header {
+		width: 100%;
+		right: 0;
+		margin: 0;
+	}
+
+	.approach-text {
+		font-size: 17.8px;
+	}
+
+	.approach-title {
+		width: 80%;
+		margin-left: 3rem;
+	}
+
+	.approach-suptext {
+		margin: 1rem auto;
+		width: 80%;
+		margin-left: 3rem;
+	}
+
+	.image__title {
+		margin: 1rem auto;
 		margin-bottom: 10rem;
 	}
 
 	.approach {
-		background: linear-gradient(to top, #ffc93e 40%, #353f5b 40%);
+		background: linear-gradient(to top, #ffc93e 25%, #172048 25%);
 	}
 }

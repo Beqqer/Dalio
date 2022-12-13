@@ -117,13 +117,13 @@
 	justify-content: space-between;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 320px) {
 	.container__clients {
 		margin: 0;
 	}
 
 	.clients-title {
-		font-size: 30px;
+		font-size: 23px;
 		margin: 2rem auto;
 	}
 
@@ -133,7 +133,7 @@
 
 	.client-quotes {
 		width: 30%;
-		margin: 0 0 2rem 8rem;
+		margin: 3rem 4.5rem;
 	}
 
 	.client__box-one {
@@ -148,10 +148,9 @@
 	}
 
 	.client-box__text {
-		margin: 0 1rem 0 0;
-		padding: 0 1rem;
-		width: 100%;
-		font-size: 20px;
+		width: 90%;
+		margin: 0;
+		padding: 0 1.5rem;
 	}
 
 	.client-page {

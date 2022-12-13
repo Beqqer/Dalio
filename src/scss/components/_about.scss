@@ -39,16 +39,14 @@
 	margin: 0 11rem;
 }
 
-.about__images {	
+.about__images {
 	display: flex;
-width: 100%;
+	width: 100%;
 }
 
 .about__image {
-	padding: .4rem .4rem;
+	padding: 0.4rem 0.4rem;
 }
-
-
 
 .footer__text {
 	display: flex;
@@ -75,16 +73,17 @@ width: 100%;
 	color: #e0e5f3;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 320px) {
 	.about-text__title {
 		font-size: 20px;
 		line-height: 30px;
 		margin: 2rem auto;
+		padding: 0;
 	}
 
 	.about-text__suptitle {
-		font-size: 20px;
-		line-height: 30px;
+		font-size: 15px;
+		line-height: 25px;
 		margin: 0;
 		position: relative;
 		left: 0.1rem;
@@ -98,7 +97,8 @@ width: 100%;
 	}
 
 	.about__button {
-		margin: 0 1rem;
+		margin: 0 0.5rem;
+		width: 150px;
 	}
 
 	.about__images {
@@ -116,8 +116,8 @@ width: 100%;
 	}
 
 	.about__title {
-		font-size: 30px;
-		line-height: 35px;
+		font-size: 20px;
+		line-height: 30px;
 	}
 
 	.about-footer__suptext {
