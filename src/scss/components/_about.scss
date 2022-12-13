@@ -8,23 +8,18 @@
 .about-text__title {
 	font-family: "Inter";
 	font-style: normal;
-	font-weight: 700;
-	font-size: 48px;
-	line-height: 58px;
+	font-size: 50px;
+	line-height: 60px;
 	text-transform: capitalize;
-
+	padding: 0 10rem 0 0;
 	color: #ffffff;
-	width: 438px;
 }
 
 .about-text__suptitle {
 	font-family: "Inter";
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
+	font-size: 17px;
 	line-height: 30px;
-	width: 539px;
-
+	font-weight: 100;
 	color: #e0e5f3;
 }
 
@@ -40,44 +35,93 @@
 	font-weight: 500;
 	font-size: 18px;
 	line-height: 22px;
-	margin: 1rem auto;
-	text-align: center;
+	left: 0;
+	margin: 0 11rem;
 }
 
-.about__images {
+.about__images {	
 	display: flex;
+width: 100%;
 }
-
 
 .about__image {
-	padding: 1rem 1rem;
+	padding: .4rem .4rem;
 }
 
-.about__image-left {
-margin: 0 0 0 2rem;
-}
+
 
 .footer__text {
 	display: flex;
 	justify-content: space-between;
-	margin: 7rem auto;
+	margin: 6rem auto;
 }
 
 .about-footer__text {
-	font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 48px;
-line-height: 58px;
-color: #fff;
-text-align: center;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 58px;
+	color: #fff;
+	text-align: center;
 }
 
 .about-footer__suptext {
-	font-family: 'Inter';
-font-style: normal;
-font-weight: 400px;
-font-size: 20px;
-line-height: 24px;
-color: #E0E5F3;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400px;
+	font-size: 20px;
+	line-height: 24px;
+	color: #e0e5f3;
+}
+
+@media (max-width: 500px) {
+	.about-text__title {
+		font-size: 20px;
+		line-height: 30px;
+		margin: 2rem auto;
+	}
+
+	.about-text__suptitle {
+		font-size: 20px;
+		line-height: 30px;
+		margin: 0;
+		position: relative;
+		left: 0.1rem;
+		margin: 2rem auto;
+	}
+
+	.about {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.about__button {
+		margin: 0 1rem;
+	}
+
+	.about__images {
+		width: 100%;
+		margin: 6rem 0 0 0;
+	}
+
+	.footer__text {
+		flex-direction: column;
+	}
+
+	.about__footer {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.about__title {
+		font-size: 30px;
+		line-height: 35px;
+	}
+
+	.about-footer__suptext {
+		margin: 0 0 5rem 0;
+		text-align: center;
+	}
 }

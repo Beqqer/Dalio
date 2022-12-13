@@ -116,3 +116,52 @@
 	display: flex;
 	justify-content: space-between;
 }
+
+@media (max-width: 500px) {
+	.container__clients {
+		margin: 0;
+	}
+
+	.clients-title {
+		font-size: 30px;
+		margin: 2rem auto;
+	}
+
+	.clients-circle {
+		display: none;
+	}
+
+	.client-quotes {
+		width: 30%;
+		margin: 0 0 2rem 8rem;
+	}
+
+	.client__box-one {
+		display: flex;
+		flex-direction: column;
+		border-radius: 50px;
+		width: 100%;
+	}
+
+	.client__box-two {
+		display: none;
+	}
+
+	.client-box__text {
+		margin: 0 1rem 0 0;
+		padding: 0 1rem;
+		width: 100%;
+		font-size: 20px;
+	}
+
+	.client-page {
+		display: flex;
+		flex-direction: column;
+		margin: 2rem auto;
+	}
+
+	.client-info {
+		align-items: center;
+		margin: 1rem auto;
+	}
+}

@@ -80,3 +80,40 @@ border-radius: 10px;
 .blog__image-right {
     margin: 0 0 1.8rem 0;
 }
+
+.blog__button:hover {
+    background-color: #FFC93E;
+    color: #000;
+    transition: 1s;
+}
+
+@media (max-width: 500px) {
+    .blog__right-side {
+        display: none;
+    }
+
+    .blog__left-side {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .blog__title {
+        margin: 2rem 0 1rem 0;
+        font-size: 30px;
+    }
+
+    .blog__image-left {
+        width: 100%;
+    }
+
+    .blog-text {
+        width: 80%;
+        text-align: center;
+    }
+
+    .blog-icon {
+        color: #FFC93E;
+
+    }
+}

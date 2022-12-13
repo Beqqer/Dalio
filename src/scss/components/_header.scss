@@ -35,3 +35,10 @@ text-decoration: none;
 .header-item__link:hover, .header-item__link:focus, .header-item__link:active {
     opacity: 0.75;
 }
+
+
+@media (max-width: 500px) {
+    .header__list {
+        display: none;
+    }
+}
